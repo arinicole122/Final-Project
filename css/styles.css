@@ -24,29 +24,32 @@ a:hover{
     color:plum;
 }
 body{
-    background-color: rgb(251, 233, 231);
+background-color: rgb(251, 233, 231);
 }
 
 h1{
 color: goldenrod;
 text-align: left;
 font-family:fantasy;
-margin-bottom: -100px;
+font-size: largest;
+margin-top:10px;
+padding-top: 20px;
 text-shadow: 6px 6px wheat;
+font-family: 'Tangerine', cursive;
 }
 
 .image{
-width: 245px;
-height: 400px;
+width: 170px;
+height: 300px;
+margin-top:15px;
 border-radius: 50%;
 overflow: hidden;
 padding-right: 55px;
 border: 10px;
 border-style:double;
 border-color: goldenrod;
-display:flex;
-float:inline-start;
-margin-right: 25px;
+display: flex;
+float: inline-start;
 shape-outside: ellipse();
 }
 
@@ -54,7 +57,7 @@ shape-outside: ellipse();
 font-size: 30px;
 }
 hr{
-border: 1px;
+border: 2px;
 border-style:groove;
 border-color:goldenrod;
 width:100%;
@@ -90,10 +93,9 @@ padding-top: 50px;
 }
 
 .products1{
-padding-top:150px;
+padding-top:200px;
 display: flex;
 gap: .5rem;
-background-color:mistyrose;
 }
 .box{
     padding-left: 200px;
@@ -140,7 +142,6 @@ input{
 .container{
     border-radius: 5px;
    padding: 20px;
-   background-color:mistyrose
 }
 
 video{
@@ -148,11 +149,12 @@ video{
  border: 4px;
  border-color: darkgoldenrod;
  border-style: groove;
-margin-left: 590px;
+margin-left: 470px;
 }
 
 .text2{
     text-align: center;
+    font-family: 'Tangerine', cursive;
 }
 
 
